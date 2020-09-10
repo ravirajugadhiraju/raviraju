@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="206" started-at="2020-09-07T10:38:21 IST" finished-at="2020-09-07T10:38:21 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="206" started-at="2020-09-07T10:38:21 IST" finished-at="2020-09-07T10:38:21 IST">
+      <class name="selenium2020.ExtentReports.ExtentReportDemo">
+        <test-method status="FAIL" signature="config()[pri:0, instance:selenium2020.ExtentReports.ExtentReportDemo@4f063c0a]" name="config" is-config="true" duration-ms="149" started-at="2020-09-07T10:38:21 IST" finished-at="2020-09-07T10:38:21 IST">
+          <exception class="java.lang.NoSuchFieldError">
+            <message>
+              <![CDATA[VERSION_2_3_29]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchFieldError: VERSION_2_3_29
+at com.aventstack.extentreports.reporter.BasicFileReporter.start(BasicFileReporter.java:98)
+at com.aventstack.extentreports.ReportObservable.register(ReportObservable.java:192)
+at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:82)
+at selenium2020.ExtentReports.ExtentReportDemo.config(ExtentReportDemo.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:620)
+at org.testng.TestRunner.beforeRun(TestRunner.java:610)
+at org.testng.TestRunner.run(TestRunner.java:581)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchFieldError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="SKIP" signature="initialDemo()[pri:0, instance:selenium2020.ExtentReports.ExtentReportDemo@4f063c0a]" name="initialDemo" duration-ms="0" started-at="2020-09-07T10:38:21 IST" finished-at="2020-09-07T10:38:21 IST">
+          <exception class="java.lang.NoSuchFieldError">
+            <message>
+              <![CDATA[VERSION_2_3_29]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchFieldError: VERSION_2_3_29
+at com.aventstack.extentreports.reporter.BasicFileReporter.start(BasicFileReporter.java:98)
+at com.aventstack.extentreports.ReportObservable.register(ReportObservable.java:192)
+at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:82)
+at selenium2020.ExtentReports.ExtentReportDemo.config(ExtentReportDemo.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:620)
+at org.testng.TestRunner.beforeRun(TestRunner.java:610)
+at org.testng.TestRunner.run(TestRunner.java:581)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchFieldError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDemo -->
+      </class> <!-- selenium2020.ExtentReports.ExtentReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
